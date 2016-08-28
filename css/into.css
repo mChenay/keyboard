@@ -1,0 +1,89 @@
+﻿@charset "utf-8";
+
+
+/*输入交易密码*/
+/*.dialog .jyPwd{height:40px;margin:10px 0;position: relative;}
+.dialog .updBank{color: #fed700;display: inline-block;margin-left:30px;}
+*/
+#content {width:81%;margin: 0 auto;display:block; }
+    
+    .word {
+        height: 44px;
+        width: 16%;
+        float: left;
+        background:#fff;
+        text-align: center;
+        border-left: 1px solid #b3b3b3;
+		border-top:1px solid #b3b3b3;
+		border-bottom:1px solid #b3b3b3;
+    }
+    .first{
+        border-top-left-radius:5px;
+        border-bottom-left-radius:5px;
+		
+    }
+    .last{
+		border-right:1px solid #b3b3b3;
+        border-top-right-radius:5px;
+        border-bottom-right-radius:5px;
+		
+    }
+.text {
+        line-height: 44px;
+        text-align: center;
+        font-size: 24px;
+        display: none;
+    }
+	.textk {
+        line-height: 44px;
+        text-align: center;
+        font-size: 24px;
+        color: #000;
+        display: none;
+    }
+#key {
+        width: 100%;
+		text-align:center;
+        display: none;
+        background: #fff;
+        z-index: 9999;
+		position:fixed;
+		bottom:0;
+    }
+table{width:100%;text-align:center;border-collapse:collapse;font-size: 16px;}
+td {
+        position: relative;
+        width: 34%;
+        height:50px;
+        border-bottom: 1px solid #8c8c8c;
+        border-left: 1px solid #8c8c8c;
+        line-height:18px;
+		font-size:24px;
+    }
+.reset,
+    .back {
+        background: #c9ced3;
+    }
+.reset{
+    background:#c9ced3;
+    font-size: 14px;
+}
+#hide{
+    clear:both;
+    background:#efeff0;
+    height:35px; 
+    border-top:1px 
+    solid #929091;
+}
+img.down_xl{
+    margin-top:8px;
+    line-height:18px;
+    height:18px;
+}
+img.back{
+    width:100%;
+    height:50px;
+}
+span.zimu{
+    font-size:12px;
+}
