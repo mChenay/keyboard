@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>交易密码输入</title>
+    <meta name="viewport"content="width=device-width,initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=no"/>
+    <meta name="apple-mobile-web-app-capable" content="yes"/>
+    <link rel="stylesheet" href="css/common.css">
+    <link rel="stylesheet" href="css/into.css">
+
+</head>
+<body>
+
+<div style="height:50px"></div>
+
+        <!-- 交易密码输入框 -->
+        <div class="input_area"></div>
+        <div class="input_area">
+            <article>
+                <form action="" method="POST" id="">
+                    <label>
+                        <div class="yzJYPwd">
+                            <div id="content" class="clearfix">
+                                <div class="word first"><span class="text1 text">●</span></div>
+                                <div class="word"><span class="text2 text">●</span></div>
+                                <div class="word"><span class="text3 text">●</span></div>
+                                <div class="word"><span class="text4 text">●</span></div>
+                                <div class="word"><span class="text5 text">●</span></div>
+                                <div class="word last"><span class="text6 textk">●</span></div>
+                            </div>
+                        </div>
+                    </label>
+                </form>
+            </article>
+        </div>
+   <!-- 键盘-->
+       <div id="key"></div>
+
+<script src="js/jquery.js" type="text/javascript" ></script>
+<script src='js/touch.js' type="text/javascript"></script>
+<script src="js/okey.js" type="text/javascript" ></script>
+<script type="text/javascript">
+
+	 var oKey = $('#key').oKey({
+		 callBack:back
+	 });
+
+    $('#content').click(function(pw){
+		 oKey.showKey();
+	 });
+
+	function back(pw){
+		alert(pw);
+
+	}
+</script>
+</body>
+</html>
